@@ -1,0 +1,129 @@
+.BlogHome {
+  padding-top: 32px;
+  width: 100%;
+}
+.BlogHome__container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 16px;
+    
+}
+.BlogHome__title{
+    font-size: 48px;
+    color: #113b5e;
+}
+.BlogPreview__thumbnail {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.BlogPreview__thumbnail{
+    margin-right: 16px;
+    
+}
+.BlogPreview__thumbnail__image {
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 0 50%;
+    object-position: 0 50%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.BlogPreview--1{
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 5rem;;
+}
+
+
+.BlogPreview--1 .BlogPreview__thumbnail{
+    height: 370px;
+}
+
+
+.BlogPreview__summary {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 40%;
+}
+.BlogPreview__title{
+    margin: 0px 8px 16px 0px;
+    line-height: 1.11111em;
+    font-size: 2.25rem;
+    color: #113b5e;
+}
+.BlogPreview__excerpt {
+    line-height: 1.55556em;
+    font-size: 1.125rem;
+    font-family: Neue Haas Grotesk Text Regular,Helvetica Neue,helvetica,arial,sans-serif;
+    color: #557b92;
+    margin-bottom: 1rem;
+}
+.BlogPreview__read-more {
+    font-size: 18px;
+    font-family: Neue Haas Grotesk Text Medium,Helvetica Neue,helvetica,arial,sans-serif;
+    color: #0088ce;
+}
+.BlogHome__section-list {
+    padding: 32px 0;
+    width:33%;
+    display: inline-block;
+}
+.BlogHome__container {
+    padding: 0 80px;
+}
+
+.BlogPreview--2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+}
+.BlogPreview--2 .BlogPreview__thumbnail{
+    display: block;
+    height: 220px;
+}
+.BlogPreview--2 .BlogPreview__summary {
+    width: 100%;
+}
+
+.BlogPreview--2 .BlogPreview__title {
+    line-height: 1.16667em;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin: 16px 0px
+}
+
+.BlogPreview--2 .BlogPreview__excerpt{
+    display: none;
+}
+
+.BlogHome__container__2{
+    padding: 0 30px;
+}
+
+.BlogHome__full-post-link {
+    font-size: 16px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #113b5e;
+    letter-spacing: 1px;
+    line-height: 1.42857em;
+}

@@ -1,0 +1,140 @@
+
+.Post {
+    padding: 0 4.875rem;
+}
+.MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.MuiGrid-grid-xs-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+}
+.MuiGrid-grid-md-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+}
+.MuiGrid-grid-xs-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.PostHead__back {
+    padding: 2rem 0;
+}
+.PostBody {
+    padding-right: 2.0625rem;
+    width: 100%;
+}
+.PostHead__back-text {
+    line-height: 1.55556em;
+    font-size: 1.125rem;
+}
+
+.PostBody__container p {
+    line-height: 1.55556em;
+    font-size: 1.125rem;
+}
+.PostBody__container h3, .PostBody__container h4, .PostBody__container h5, .PostBody__container h6 {
+    line-height: 1.16667em;
+    font-size: 1.5rem;
+}
+.PostBody__container ul {
+    line-height: 1.8;
+    list-style-position: outside;
+    margin-bottom: 1.5rem;
+    margin-left: 1.25rem;
+    list-style-type: disc;
+}
+
+.PostBody__container li {
+    font-size: 1.125rem;
+    display: list-item;
+}
+.PostBody__container h2 {
+    line-height: 1.11111em;
+    font-size: 2.25rem;
+}
+.PostBody .SharingBar {
+    margin-bottom: 4.5rem;
+}
+.SocialMediaButton:not(:last-child) {
+    margin-right: 5px;
+}
+.SocialMediaButton--facebook {
+    background: #3a589e;
+}
+.SocialMediaButton {
+    border-radius: 2px;
+    height: 32px;
+    margin-bottom: 3px;
+    min-width: 34px;
+    text-align: center;
+    -webkit-flex-basis: 0%;
+    -ms-flex-preferred-size: 0%;
+    flex-basis: 0%;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.SocialMediaButton__wrapper {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 13px;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-transition: padding .1s linear;
+    -o-transition: padding .1s linear;
+    transition: padding .1s linear;
+}
+.SocialMediaButton__icon {
+    height: 20px;
+    margin: 6px auto;
+    width: 30px;
+}
+.SocialMediaButton__share {
+    margin: 8px 0;
+}
+.PostHead__title{
+    margin: 2rem 0;
+    line-height: 1.08333em;
+    font-size: 3rem;
+    font-family: Neue Haas Grotesk Display Bold,Helvetica Neue,helvetica,arial,sans-serif;
+    color: #113b5e;
+}
+.PostHead__dates{
+    margin-bottom: 1rem;
+    line-height: 1.42857em;
+    font-size: .875rem;
+    font-family: Neue Haas Grotesk Text Regular,Helvetica Neue,helvetica,arial,sans-serif;
+    color: #557b92;
+}
+.PostHead__featured-image{
+    margin-bottom: 1.5rem;
+    height: 483px;
+    width:100%;
+    
+
+}

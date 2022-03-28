@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/359.ca5cb591.chunk.js","mappings":"qIAUA,UARA,WACI,OACI","sources":["component/SinglePost.jsx"],"sourcesContent":["import React from \"react\";\n\nfunction SinglePost() {\n    return(\n        <div>\n            Hello World 2\n        </div>\n    )\n}\n\nexport default SinglePost"],"names":[],"sourceRoot":""}

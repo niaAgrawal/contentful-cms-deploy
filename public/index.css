@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+  font-family: Neue Haas Grotesk Text Medium,Helvetica Neue,helvetica,arial,sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width:100%;
+  height: 44px;
+  background-color: #113b5e;
+  color:#fff;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 10px;
+}
