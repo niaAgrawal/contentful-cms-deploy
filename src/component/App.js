@@ -12,7 +12,7 @@ function App() {
     <Router history={history}>
       <div>
         <div className="header">Header</div>
-        <Suspense fallback={<div>Loading ...</div>}>
+        <Suspense fallback={<div>Loading ....</div>}>
           <Routes>
               <Route exact path='/' element={<Posts/>} />
               <Route path='/:id' element={<SinglePost/>} />
